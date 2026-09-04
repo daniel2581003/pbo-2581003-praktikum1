@@ -6,12 +6,14 @@ public class Biodata {
         String asal = "Jakarta";
         String alasan = "Alasan memilih Prodi karena Saya menyukai Komputer sejak saya kecil";
         String target = "Target saya semester ini adalah membuat project sebanyak banyak nya agar dapat memenuhi Portofolio saya";
+        String kontak = "085718514579";
         System.out.println("Nama : " + nama);
         System.out.println("NIM  : " + nim);
         System.out.println("Program Studi : " + prodi);
         System.out.println("Asal Daerah : " + asal);
-        System.out.println("Asal Daerah : " + alasan);
-        System.out.println("Asal Daerah : " + target);
+        System.out.println("Alasan memilih prodi : " + alasan);
+        System.out.println("Target : " + target);
+        System.out.println("Kontak : " + kontak);
 
     }
 }
